@@ -128,9 +128,9 @@ body {
     cursor: pointer;
 }
 
-/*features*/
+/*about*/
 
-.features-main {
+.features-list {
     position: absolute;
     width: 1170px;
     height: 101px;
@@ -170,3 +170,14 @@ body {
 
 /*main work*/
 
+.features-inner {
+    position: absolute;
+    width: 1170px;
+    height: 386px;
+    margin-left: 215px;
+    margin-top: 93px;
+}
+
+.features-inner-item {
+    display: inline;
+}
