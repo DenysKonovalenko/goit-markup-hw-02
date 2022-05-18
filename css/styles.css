@@ -3,41 +3,25 @@ body {
     color: #212121;
     width: 1600px;
 }
-/*header-styles*/
-.head {
-    display: flex;
-    width: 1600px; 
-    height: 80px;  
-  
+
+li {
+    list-style-type: none;
 }
+/*header-styles*/
 
 .logo {
     text-decoration: none;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;  
     letter-spacing: 0.03em;    
     color: #000000;
-    margin-left: 215px;
-    margin-top: 24px;
-    width: 145px;
-    height: 31px;
 }
 
 .logo-part {
     color: #2196F3;
-}
-
-.main-nav {
-    margin-left: 93px;
-    margin-top: 32px;
-}
-
-
-.item-nav {
-    display: inline;
 }
 
 .link-nav {
@@ -48,16 +32,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-    margin-left: 50px;
-}
 
-.contacts {
-    margin-left: 330px;
-    margin-top: 32px;
-}
-
-.contact {
-    display: inline;
 }
 
 .contact-mail, .contact-tel {
@@ -70,10 +45,6 @@ body {
     color: #757575;
 }
 
-.contact-tel {
-    margin-left: 50px;
-    
-}
 
 .link:hover {
     color: #2196F3;
@@ -85,10 +56,7 @@ body {
 
 /*Title*/
 
-.main-title {
-    position: absolute;
-    width: 1600px;
-    height: 600px;    
+.main-title {   
     background: #2F303A;
 }
 
@@ -101,17 +69,9 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color: #FFFFFF;
-    width: 700px;
-    height: 120px;
-    margin: auto ;
-    margin-top: 200px;
 }
 
 .but-title {
-    position: relative;
-    left: 700px;
-    top: 30px;
-    right: 700px;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -126,29 +86,10 @@ body {
     width: 200px;
     height: 50px;
     cursor: pointer;
+    border: 0;
 }
 
 /*about*/
-
-.features-list {
-    position: absolute;
-    width: 1170px;
-    height: 101px;
-    left: 215px;
-    top: 774px;
-}
-
-.features {
-    margin: auto o;
-}
-
-.features-item {
-    display: inline-block;
-    width: 270px;
-    height: 101px;
-    left: 215px;
-    top: 774px;
-}
 
 .features-title {
     font-style: normal;
@@ -169,3 +110,116 @@ body {
 }
 
 /*main work*/
+
+.features-inner-title,
+.title-team {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*team*/
+
+.team {
+    background: #F5F4FA;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*footer*/
+
+footer {
+    background: #2F303A;
+}
+
+footer > .logo {
+    color: #ffffff; 
+}
+
+address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;   
+    letter-spacing: 0.03em;   
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio*/
+
+/*portfolio main*/
+
+.filter {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+}
+
+.filter:hover {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+        color: #FFFFFF;
+}
+
+.filter:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12); 
+        color: #FFFFFF;   
+}
+
+.title-element {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.element-filter {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
